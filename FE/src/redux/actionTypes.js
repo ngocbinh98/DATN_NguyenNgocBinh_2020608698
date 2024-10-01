@@ -1,0 +1,8 @@
+export const GET_LIST_PRODUCT = 'GET_LIST_PRODUCT';
+export const GET_CATEGORY = 'GET_CATEGORY';
+export const GET_CART_ITEM = 'GET_CART_ITEM';
+export const GET_PURCHASE = 'GET_PURCHASE';
+export const GET_LIST_TYPE = 'GET_LIST_TYPE';
+export const GET_LIST_CATEGORY = 'GET_LIST_CATEGORY';
+export const GET_LIST_ORDER = 'GET_LIST_ORDER';
+export const GET_LIST_USER = 'GET_LIST_USER';

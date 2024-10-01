@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  padding: 6px 16px;
+
+  &:hover {
+    background-color: rgba(22, 24, 35, 0.1);
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.icon {
+  // flex: 1;
+  // margin-left: 12px;
+  margin-right: 5px;
+  font-size: 15px;
+  color: #658cff;
+}
+
+.check {
+  margin-right: 5px;
+  font-size: 15px;
+  color: #658cff;
+}
+.productname {
+  padding-left: 10px;
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}

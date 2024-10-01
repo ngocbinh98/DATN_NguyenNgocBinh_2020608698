@@ -1,0 +1,49 @@
+/* SlideShow.module.scss */
+.slideshow-content {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slideshow-content img {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  position: absolute;
+  transition: opacity 1s ease-in-out;
+}
+
+.slideshow-content button {
+  position: absolute;
+  top: 50%;
+  margin-left: -50px;
+  margin-right: -50px;
+  transition: margin 0.5s;
+  transform: translateY(-50%);
+  width: auto;
+  height: auto;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.slideshow-content:hover button {
+  margin-left: 0;
+  margin-right: 0;
+}
+button:focus {
+  border: none;
+  outline: none;
+}
+
+.slideshow-content button:first-child {
+  left: 10px;
+}
+
+.slideshow-content button:last-child {
+  right: 10px;
+}
